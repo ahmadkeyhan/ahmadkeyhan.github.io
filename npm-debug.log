@@ -1,0 +1,751 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bootstrap
+20 silly mapToRegistry name bootstrap
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bootstrap',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'bootstrap',
+23 silly mapToRegistry   name: 'bootstrap',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+25 silly fetchNamedPackageData font-awesome
+26 silly mapToRegistry name font-awesome
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'font-awesome',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'font-awesome',
+29 silly mapToRegistry   name: 'font-awesome',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+31 silly fetchNamedPackageData jquery
+32 silly mapToRegistry name jquery
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'jquery',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'jquery',
+35 silly mapToRegistry   name: 'jquery',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/jquery
+37 silly fetchNamedPackageData jquery.easing
+38 silly mapToRegistry name jquery.easing
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'jquery.easing',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'jquery.easing',
+41 silly mapToRegistry   name: 'jquery.easing',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/jquery.easing
+43 silly fetchNamedPackageData popper.js
+44 silly mapToRegistry name popper.js
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'popper.js',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'popper.js',
+47 silly mapToRegistry   name: 'popper.js',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/popper.js
+49 verbose request uri https://registry.npmjs.org/bootstrap
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 4:20:26 PM
+52 verbose request id 3bcaedd06d4718e4
+53 http request GET https://registry.npmjs.org/bootstrap
+54 verbose request uri https://registry.npmjs.org/font-awesome
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 4:20:26 PM
+57 http request GET https://registry.npmjs.org/font-awesome
+58 verbose request uri https://registry.npmjs.org/jquery.easing
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 4:20:26 PM
+61 http request GET https://registry.npmjs.org/jquery.easing
+62 verbose request uri https://registry.npmjs.org/popper.js
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 4:20:26 PM
+65 http request GET https://registry.npmjs.org/popper.js
+66 verbose request uri https://registry.npmjs.org/jquery
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 4:20:28 PM
+69 verbose etag W/"5980d910-16162"
+70 verbose lastModified Tue, 01 Aug 2017 19:40:00 GMT
+71 http request GET https://registry.npmjs.org/jquery
+72 http 200 https://registry.npmjs.org/jquery.easing
+73 verbose headers { server: 'nginx/1.10.1',
+73 verbose headers   'content-type': 'application/json',
+73 verbose headers   'last-modified': 'Tue, 10 Oct 2017 06:24:00 GMT',
+73 verbose headers   etag: 'W/"59dc6780-2033"',
+73 verbose headers   'content-encoding': 'gzip',
+73 verbose headers   'cache-control': 'max-age=300',
+73 verbose headers   'content-length': '1883',
+73 verbose headers   'accept-ranges': 'bytes',
+73 verbose headers   date: 'Wed, 11 Oct 2017 12:50:29 GMT',
+73 verbose headers   via: '1.1 varnish',
+73 verbose headers   age: '0',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'x-served-by': 'cache-fra1241-FRA',
+73 verbose headers   'x-cache': 'MISS',
+73 verbose headers   'x-cache-hits': '0',
+73 verbose headers   'x-timer': 'S1507726229.161450,VS0,VE78',
+73 verbose headers   vary: 'Accept-Encoding, Accept' }
+74 silly get cb [ 200,
+74 silly get   { server: 'nginx/1.10.1',
+74 silly get     'content-type': 'application/json',
+74 silly get     'last-modified': 'Tue, 10 Oct 2017 06:24:00 GMT',
+74 silly get     etag: 'W/"59dc6780-2033"',
+74 silly get     'content-encoding': 'gzip',
+74 silly get     'cache-control': 'max-age=300',
+74 silly get     'content-length': '1883',
+74 silly get     'accept-ranges': 'bytes',
+74 silly get     date: 'Wed, 11 Oct 2017 12:50:29 GMT',
+74 silly get     via: '1.1 varnish',
+74 silly get     age: '0',
+74 silly get     connection: 'keep-alive',
+74 silly get     'x-served-by': 'cache-fra1241-FRA',
+74 silly get     'x-cache': 'MISS',
+74 silly get     'x-cache-hits': '0',
+74 silly get     'x-timer': 'S1507726229.161450,VS0,VE78',
+74 silly get     vary: 'Accept-Encoding, Accept' } ]
+75 verbose get saving jquery.easing to C:\Users\Keyhan\AppData\Roaming\npm-cache\registry.npmjs.org\jquery.easing\.cache.json
+76 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+77 silly resolveWithNewModule jquery.easing@1.4.1 checking installable status
+78 silly cache add args [ 'jquery.easing@^1.4.1', null ]
+79 verbose cache add spec jquery.easing@^1.4.1
+80 silly cache add parsed spec Result {
+80 silly cache add   raw: 'jquery.easing@^1.4.1',
+80 silly cache add   scope: null,
+80 silly cache add   escapedName: 'jquery.easing',
+80 silly cache add   name: 'jquery.easing',
+80 silly cache add   rawSpec: '^1.4.1',
+80 silly cache add   spec: '>=1.4.1 <2.0.0',
+80 silly cache add   type: 'range' }
+81 silly addNamed jquery.easing@>=1.4.1 <2.0.0
+82 verbose addNamed ">=1.4.1 <2.0.0" is a valid semver range for jquery.easing
+83 silly addNameRange { name: 'jquery.easing',
+83 silly addNameRange   range: '>=1.4.1 <2.0.0',
+83 silly addNameRange   hasData: false }
+84 silly mapToRegistry name jquery.easing
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry data Result {
+87 silly mapToRegistry   raw: 'jquery.easing',
+87 silly mapToRegistry   scope: null,
+87 silly mapToRegistry   escapedName: 'jquery.easing',
+87 silly mapToRegistry   name: 'jquery.easing',
+87 silly mapToRegistry   rawSpec: '',
+87 silly mapToRegistry   spec: 'latest',
+87 silly mapToRegistry   type: 'tag' }
+88 silly mapToRegistry uri https://registry.npmjs.org/jquery.easing
+89 verbose addNameRange registry:https://registry.npmjs.org/jquery.easing not in flight; fetching
+90 verbose get https://registry.npmjs.org/jquery.easing not expired, no request
+91 silly addNameRange number 2 { name: 'jquery.easing', range: '>=1.4.1 <2.0.0', hasData: true }
+92 silly addNameRange versions [ 'jquery.easing',
+92 silly addNameRange   [ '1.3.0', '1.3.1', '1.3.2', '1.4.0', '1.4.1' ] ]
+93 silly addNamed jquery.easing@1.4.1
+94 verbose addNamed "1.4.1" is a plain semver version for jquery.easing
+95 silly mapToRegistry name jquery.easing
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry data Result {
+98 silly mapToRegistry   raw: 'jquery.easing',
+98 silly mapToRegistry   scope: null,
+98 silly mapToRegistry   escapedName: 'jquery.easing',
+98 silly mapToRegistry   name: 'jquery.easing',
+98 silly mapToRegistry   rawSpec: '',
+98 silly mapToRegistry   spec: 'latest',
+98 silly mapToRegistry   type: 'tag' }
+99 silly mapToRegistry uri https://registry.npmjs.org/jquery.easing
+100 verbose addRemoteTarball https://registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz not in flight; adding
+101 verbose addRemoteTarball [ 'https://registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz',
+101 verbose addRemoteTarball   '47982c5836bd758fd48494923c4a101ef6e93e3b' ]
+102 info retry fetch attempt 1 at 4:20:30 PM
+103 info attempt registry request try #1 at 4:20:30 PM
+104 http fetch GET https://registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz
+105 http 200 https://registry.npmjs.org/popper.js
+106 verbose headers { server: 'nginx/1.10.1',
+106 verbose headers   'content-type': 'application/json',
+106 verbose headers   'last-modified': 'Wed, 27 Sep 2017 06:31:24 GMT',
+106 verbose headers   etag: 'W/"59cb45bc-3aaa6"',
+106 verbose headers   'content-encoding': 'gzip',
+106 verbose headers   'cache-control': 'max-age=300',
+106 verbose headers   'content-length': '16416',
+106 verbose headers   'accept-ranges': 'bytes',
+106 verbose headers   date: 'Wed, 11 Oct 2017 12:50:29 GMT',
+106 verbose headers   via: '1.1 varnish',
+106 verbose headers   age: '20',
+106 verbose headers   connection: 'keep-alive',
+106 verbose headers   'x-served-by': 'cache-fra1225-FRA',
+106 verbose headers   'x-cache': 'HIT',
+106 verbose headers   'x-cache-hits': '1',
+106 verbose headers   'x-timer': 'S1507726229.039941,VS0,VE0',
+106 verbose headers   vary: 'Accept-Encoding, Accept' }
+107 silly get cb [ 200,
+107 silly get   { server: 'nginx/1.10.1',
+107 silly get     'content-type': 'application/json',
+107 silly get     'last-modified': 'Wed, 27 Sep 2017 06:31:24 GMT',
+107 silly get     etag: 'W/"59cb45bc-3aaa6"',
+107 silly get     'content-encoding': 'gzip',
+107 silly get     'cache-control': 'max-age=300',
+107 silly get     'content-length': '16416',
+107 silly get     'accept-ranges': 'bytes',
+107 silly get     date: 'Wed, 11 Oct 2017 12:50:29 GMT',
+107 silly get     via: '1.1 varnish',
+107 silly get     age: '20',
+107 silly get     connection: 'keep-alive',
+107 silly get     'x-served-by': 'cache-fra1225-FRA',
+107 silly get     'x-cache': 'HIT',
+107 silly get     'x-cache-hits': '1',
+107 silly get     'x-timer': 'S1507726229.039941,VS0,VE0',
+107 silly get     vary: 'Accept-Encoding, Accept' } ]
+108 verbose get saving popper.js to C:\Users\Keyhan\AppData\Roaming\npm-cache\registry.npmjs.org\popper.js\.cache.json
+109 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+110 silly resolveWithNewModule popper.js@1.12.5 checking installable status
+111 silly cache add args [ 'popper.js@^1.11.1', null ]
+112 verbose cache add spec popper.js@^1.11.1
+113 silly cache add parsed spec Result {
+113 silly cache add   raw: 'popper.js@^1.11.1',
+113 silly cache add   scope: null,
+113 silly cache add   escapedName: 'popper.js',
+113 silly cache add   name: 'popper.js',
+113 silly cache add   rawSpec: '^1.11.1',
+113 silly cache add   spec: '>=1.11.1 <2.0.0',
+113 silly cache add   type: 'range' }
+114 silly addNamed popper.js@>=1.11.1 <2.0.0
+115 verbose addNamed ">=1.11.1 <2.0.0" is a valid semver range for popper.js
+116 silly addNameRange { name: 'popper.js', range: '>=1.11.1 <2.0.0', hasData: false }
+117 silly mapToRegistry name popper.js
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry data Result {
+120 silly mapToRegistry   raw: 'popper.js',
+120 silly mapToRegistry   scope: null,
+120 silly mapToRegistry   escapedName: 'popper.js',
+120 silly mapToRegistry   name: 'popper.js',
+120 silly mapToRegistry   rawSpec: '',
+120 silly mapToRegistry   spec: 'latest',
+120 silly mapToRegistry   type: 'tag' }
+121 silly mapToRegistry uri https://registry.npmjs.org/popper.js
+122 verbose addNameRange registry:https://registry.npmjs.org/popper.js not in flight; fetching
+123 verbose get https://registry.npmjs.org/popper.js not expired, no request
+124 silly addNameRange number 2 { name: 'popper.js', range: '>=1.11.1 <2.0.0', hasData: true }
+125 silly addNameRange versions [ 'popper.js',
+125 silly addNameRange   [ '0.2.0',
+125 silly addNameRange     '0.2.1',
+125 silly addNameRange     '0.2.2',
+125 silly addNameRange     '0.2.3',
+125 silly addNameRange     '0.2.4',
+125 silly addNameRange     '0.2.5',
+125 silly addNameRange     '0.2.6',
+125 silly addNameRange     '0.3.0',
+125 silly addNameRange     '0.3.1',
+125 silly addNameRange     '0.3.2',
+125 silly addNameRange     '0.3.3',
+125 silly addNameRange     '0.3.4',
+125 silly addNameRange     '0.3.5',
+125 silly addNameRange     '0.3.6',
+125 silly addNameRange     '0.3.7',
+125 silly addNameRange     '0.3.8',
+125 silly addNameRange     '0.4.0',
+125 silly addNameRange     '0.4.1',
+125 silly addNameRange     '0.4.2',
+125 silly addNameRange     '0.5.0',
+125 silly addNameRange     '0.5.1',
+125 silly addNameRange     '0.5.2',
+125 silly addNameRange     '0.5.3',
+125 silly addNameRange     '0.6.0',
+125 silly addNameRange     '1.0.0-alpha.1',
+125 silly addNameRange     '1.0.0-alpha.2',
+125 silly addNameRange     '0.6.1',
+125 silly addNameRange     '0.6.2',
+125 silly addNameRange     '0.6.3',
+125 silly addNameRange     '0.6.4',
+125 silly addNameRange     '1.0.0-alpha.3',
+125 silly addNameRange     '1.0.0-alpha.4',
+125 silly addNameRange     '1.0.0-alpha.5',
+125 silly addNameRange     '1.0.0-alpha.6',
+125 silly addNameRange     '1.0.0-alpha.7',
+125 silly addNameRange     '1.0.0-alpha.8',
+125 silly addNameRange     '1.0.0-beta.1',
+125 silly addNameRange     '1.0.0-beta.2',
+125 silly addNameRange     '1.0.0-beta.3',
+125 silly addNameRange     '1.0.0-beta.4',
+125 silly addNameRange     '1.0.0-beta.5',
+125 silly addNameRange     '1.0.0',
+125 silly addNameRange     '1.0.1',
+125 silly addNameRange     '1.0.2',
+125 silly addNameRange     '1.0.3',
+125 silly addNameRange     '1.0.4',
+125 silly addNameRange     '1.0.5',
+125 silly addNameRange     '1.0.6',
+125 silly addNameRange     '1.0.7',
+125 silly addNameRange     '1.0.8',
+125 silly addNameRange     '1.5.0',
+125 silly addNameRange     '1.5.1-pre',
+125 silly addNameRange     '1.5.1-pre.2',
+125 silly addNameRange     '1.5.1',
+125 silly addNameRange     '1.5.2',
+125 silly addNameRange     '1.6.0',
+125 silly addNameRange     '1.7.0',
+125 silly addNameRange     '1.8.0',
+125 silly addNameRange     '1.8.1',
+125 silly addNameRange     '1.8.2',
+125 silly addNameRange     '1.8.3',
+125 silly addNameRange     '1.8.4',
+125 silly addNameRange     '1.8.5',
+125 silly addNameRange     '1.8.6',
+125 silly addNameRange     '1.9.0',
+125 silly addNameRange     '1.9.1',
+125 silly addNameRange     '1.9.2',
+125 silly addNameRange     '1.9.3',
+125 silly addNameRange     '1.9.4',
+125 silly addNameRange     '1.9.5',
+125 silly addNameRange     '1.9.6',
+125 silly addNameRange     '1.9.7',
+125 silly addNameRange     '1.9.8',
+125 silly addNameRange     '1.9.9',
+125 silly addNameRange     '1.10.0',
+125 silly addNameRange     '1.10.1',
+125 silly addNameRange     '1.10.2',
+125 silly addNameRange     '1.10.3',
+125 silly addNameRange     '1.10.4',
+125 silly addNameRange     '1.10.5',
+125 silly addNameRange     '1.10.6',
+125 silly addNameRange     '1.10.7',
+125 silly addNameRange     '1.10.8',
+125 silly addNameRange     '1.11.0',
+125 silly addNameRange     '1.11.1',
+125 silly addNameRange     '1.12.0',
+125 silly addNameRange     '1.12.1',
+125 silly addNameRange     '1.12.2',
+125 silly addNameRange     '1.12.3',
+125 silly addNameRange     '1.12.4',
+125 silly addNameRange     '1.12.5' ] ]
+126 silly addNamed popper.js@1.12.5
+127 verbose addNamed "1.12.5" is a plain semver version for popper.js
+128 silly mapToRegistry name popper.js
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'popper.js',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   escapedName: 'popper.js',
+131 silly mapToRegistry   name: 'popper.js',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/popper.js
+133 verbose addRemoteTarball https://registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz not in flight; adding
+134 verbose addRemoteTarball [ 'https://registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz',
+134 verbose addRemoteTarball   '229e4dea01629e1f1a1e26991ffade5024220fa6' ]
+135 info retry fetch attempt 1 at 4:20:31 PM
+136 info attempt registry request try #1 at 4:20:31 PM
+137 http fetch GET https://registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz
+138 http fetch 200 https://registry.npmjs.org/popper.js/-/popper.js-1.12.5.tgz
+139 http 200 https://registry.npmjs.org/bootstrap
+140 verbose headers { server: 'nginx/1.10.1',
+140 verbose headers   'content-type': 'application/json',
+140 verbose headers   'last-modified': 'Wed, 11 Oct 2017 06:00:33 GMT',
+140 verbose headers   etag: 'W/"59ddb381-e3dc"',
+140 verbose headers   'content-encoding': 'gzip',
+140 verbose headers   'cache-control': 'max-age=300',
+140 verbose headers   'content-length': '11609',
+140 verbose headers   'accept-ranges': 'bytes',
+140 verbose headers   date: 'Wed, 11 Oct 2017 12:50:31 GMT',
+140 verbose headers   via: '1.1 varnish',
+140 verbose headers   age: '216',
+140 verbose headers   connection: 'keep-alive',
+140 verbose headers   'x-served-by': 'cache-fra1238-FRA',
+140 verbose headers   'x-cache': 'HIT',
+140 verbose headers   'x-cache-hits': '2',
+140 verbose headers   'x-timer': 'S1507726231.157194,VS0,VE0',
+140 verbose headers   vary: 'Accept-Encoding, Accept' }
+141 silly get cb [ 200,
+141 silly get   { server: 'nginx/1.10.1',
+141 silly get     'content-type': 'application/json',
+141 silly get     'last-modified': 'Wed, 11 Oct 2017 06:00:33 GMT',
+141 silly get     etag: 'W/"59ddb381-e3dc"',
+141 silly get     'content-encoding': 'gzip',
+141 silly get     'cache-control': 'max-age=300',
+141 silly get     'content-length': '11609',
+141 silly get     'accept-ranges': 'bytes',
+141 silly get     date: 'Wed, 11 Oct 2017 12:50:31 GMT',
+141 silly get     via: '1.1 varnish',
+141 silly get     age: '216',
+141 silly get     connection: 'keep-alive',
+141 silly get     'x-served-by': 'cache-fra1238-FRA',
+141 silly get     'x-cache': 'HIT',
+141 silly get     'x-cache-hits': '2',
+141 silly get     'x-timer': 'S1507726231.157194,VS0,VE0',
+141 silly get     vary: 'Accept-Encoding, Accept' } ]
+142 verbose get saving bootstrap to C:\Users\Keyhan\AppData\Roaming\npm-cache\registry.npmjs.org\bootstrap\.cache.json
+143 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+144 silly resolveWithNewModule bootstrap@4.0.0-beta checking installable status
+145 silly cache add args [ 'bootstrap@^4.0.0-beta', null ]
+146 verbose cache add spec bootstrap@^4.0.0-beta
+147 silly cache add parsed spec Result {
+147 silly cache add   raw: 'bootstrap@^4.0.0-beta',
+147 silly cache add   scope: null,
+147 silly cache add   escapedName: 'bootstrap',
+147 silly cache add   name: 'bootstrap',
+147 silly cache add   rawSpec: '^4.0.0-beta',
+147 silly cache add   spec: '>=4.0.0-beta <5.0.0',
+147 silly cache add   type: 'range' }
+148 silly addNamed bootstrap@>=4.0.0-beta <5.0.0
+149 verbose addNamed ">=4.0.0-beta <5.0.0" is a valid semver range for bootstrap
+150 silly addNameRange { name: 'bootstrap',
+150 silly addNameRange   range: '>=4.0.0-beta <5.0.0',
+150 silly addNameRange   hasData: false }
+151 silly mapToRegistry name bootstrap
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry data Result {
+154 silly mapToRegistry   raw: 'bootstrap',
+154 silly mapToRegistry   scope: null,
+154 silly mapToRegistry   escapedName: 'bootstrap',
+154 silly mapToRegistry   name: 'bootstrap',
+154 silly mapToRegistry   rawSpec: '',
+154 silly mapToRegistry   spec: 'latest',
+154 silly mapToRegistry   type: 'tag' }
+155 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+156 verbose addNameRange registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+157 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+158 silly addNameRange number 2 { name: 'bootstrap',
+158 silly addNameRange   range: '>=4.0.0-beta <5.0.0',
+158 silly addNameRange   hasData: true }
+159 silly addNameRange versions [ 'bootstrap',
+159 silly addNameRange   [ '0.0.1',
+159 silly addNameRange     '0.0.2',
+159 silly addNameRange     '3.1.1',
+159 silly addNameRange     '3.2.0',
+159 silly addNameRange     '3.3.0',
+159 silly addNameRange     '3.3.1',
+159 silly addNameRange     '3.3.2',
+159 silly addNameRange     '3.3.4',
+159 silly addNameRange     '3.3.5',
+159 silly addNameRange     '3.3.6',
+159 silly addNameRange     '4.0.0-alpha.2',
+159 silly addNameRange     '3.3.7',
+159 silly addNameRange     '4.0.0-alpha.3',
+159 silly addNameRange     '4.0.0-alpha.4',
+159 silly addNameRange     '4.0.0-alpha.5',
+159 silly addNameRange     '4.0.0-alpha.6',
+159 silly addNameRange     '4.0.0-beta' ] ]
+160 silly addNamed bootstrap@4.0.0-beta
+161 verbose addNamed "4.0.0-beta" is a plain semver version for bootstrap
+162 silly mapToRegistry name bootstrap
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry data Result {
+165 silly mapToRegistry   raw: 'bootstrap',
+165 silly mapToRegistry   scope: null,
+165 silly mapToRegistry   escapedName: 'bootstrap',
+165 silly mapToRegistry   name: 'bootstrap',
+165 silly mapToRegistry   rawSpec: '',
+165 silly mapToRegistry   spec: 'latest',
+165 silly mapToRegistry   type: 'tag' }
+166 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+167 verbose addRemoteTarball https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz not in flight; adding
+168 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz',
+168 verbose addRemoteTarball   'dc5928175d2e71310bc668cf9e05a907211b72a6' ]
+169 info retry fetch attempt 1 at 4:20:33 PM
+170 info attempt registry request try #1 at 4:20:33 PM
+171 http fetch GET https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz
+172 http fetch 200 https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz
+173 http fetch 200 https://registry.npmjs.org/jquery.easing/-/jquery.easing-1.4.1.tgz
+174 http 200 https://registry.npmjs.org/font-awesome
+175 verbose headers { server: 'nginx/1.10.1',
+175 verbose headers   'content-type': 'application/json',
+175 verbose headers   'last-modified': 'Thu, 28 Sep 2017 12:49:11 GMT',
+175 verbose headers   etag: 'W/"59ccefc7-57ef"',
+175 verbose headers   'content-encoding': 'gzip',
+175 verbose headers   'cache-control': 'max-age=300',
+175 verbose headers   'content-length': '4771',
+175 verbose headers   'accept-ranges': 'bytes',
+175 verbose headers   date: 'Wed, 11 Oct 2017 12:50:31 GMT',
+175 verbose headers   via: '1.1 varnish',
+175 verbose headers   age: '269',
+175 verbose headers   connection: 'keep-alive',
+175 verbose headers   'x-served-by': 'cache-fra1225-FRA',
+175 verbose headers   'x-cache': 'HIT',
+175 verbose headers   'x-cache-hits': '2',
+175 verbose headers   'x-timer': 'S1507726231.136538,VS0,VE0',
+175 verbose headers   vary: 'Accept-Encoding, Accept' }
+176 silly get cb [ 200,
+176 silly get   { server: 'nginx/1.10.1',
+176 silly get     'content-type': 'application/json',
+176 silly get     'last-modified': 'Thu, 28 Sep 2017 12:49:11 GMT',
+176 silly get     etag: 'W/"59ccefc7-57ef"',
+176 silly get     'content-encoding': 'gzip',
+176 silly get     'cache-control': 'max-age=300',
+176 silly get     'content-length': '4771',
+176 silly get     'accept-ranges': 'bytes',
+176 silly get     date: 'Wed, 11 Oct 2017 12:50:31 GMT',
+176 silly get     via: '1.1 varnish',
+176 silly get     age: '269',
+176 silly get     connection: 'keep-alive',
+176 silly get     'x-served-by': 'cache-fra1225-FRA',
+176 silly get     'x-cache': 'HIT',
+176 silly get     'x-cache-hits': '2',
+176 silly get     'x-timer': 'S1507726231.136538,VS0,VE0',
+176 silly get     vary: 'Accept-Encoding, Accept' } ]
+177 verbose get saving font-awesome to C:\Users\Keyhan\AppData\Roaming\npm-cache\registry.npmjs.org\font-awesome\.cache.json
+178 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+179 silly resolveWithNewModule font-awesome@4.7.0 checking installable status
+180 silly cache add args [ 'font-awesome@4.7.0', null ]
+181 verbose cache add spec font-awesome@4.7.0
+182 silly cache add parsed spec Result {
+182 silly cache add   raw: 'font-awesome@4.7.0',
+182 silly cache add   scope: null,
+182 silly cache add   escapedName: 'font-awesome',
+182 silly cache add   name: 'font-awesome',
+182 silly cache add   rawSpec: '4.7.0',
+182 silly cache add   spec: '4.7.0',
+182 silly cache add   type: 'version' }
+183 silly addNamed font-awesome@4.7.0
+184 verbose addNamed "4.7.0" is a plain semver version for font-awesome
+185 silly mapToRegistry name font-awesome
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry https://registry.npmjs.org/
+188 silly mapToRegistry data Result {
+188 silly mapToRegistry   raw: 'font-awesome',
+188 silly mapToRegistry   scope: null,
+188 silly mapToRegistry   escapedName: 'font-awesome',
+188 silly mapToRegistry   name: 'font-awesome',
+188 silly mapToRegistry   rawSpec: '',
+188 silly mapToRegistry   spec: 'latest',
+188 silly mapToRegistry   type: 'tag' }
+189 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+190 verbose addNameVersion registry:https://registry.npmjs.org/font-awesome not in flight; fetching
+191 verbose get https://registry.npmjs.org/font-awesome not expired, no request
+192 silly mapToRegistry name font-awesome
+193 silly mapToRegistry using default registry
+194 silly mapToRegistry registry https://registry.npmjs.org/
+195 silly mapToRegistry data Result {
+195 silly mapToRegistry   raw: 'font-awesome',
+195 silly mapToRegistry   scope: null,
+195 silly mapToRegistry   escapedName: 'font-awesome',
+195 silly mapToRegistry   name: 'font-awesome',
+195 silly mapToRegistry   rawSpec: '',
+195 silly mapToRegistry   spec: 'latest',
+195 silly mapToRegistry   type: 'tag' }
+196 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+197 verbose addRemoteTarball https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz not in flight; adding
+198 verbose addRemoteTarball [ 'https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz',
+198 verbose addRemoteTarball   '8fa8cf0411a1a31afd07b06d2902bb9fc815a133' ]
+199 info retry fetch attempt 1 at 4:20:37 PM
+200 info attempt registry request try #1 at 4:20:37 PM
+201 http fetch GET https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz
+202 http fetch 200 https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz
+203 http 200 https://registry.npmjs.org/jquery
+204 verbose headers { server: 'nginx/1.10.1',
+204 verbose headers   'content-type': 'application/json',
+204 verbose headers   'last-modified': 'Wed, 11 Oct 2017 01:56:39 GMT',
+204 verbose headers   etag: 'W/"59dd7a57-162c5"',
+204 verbose headers   'content-encoding': 'gzip',
+204 verbose headers   'cache-control': 'max-age=300',
+204 verbose headers   'content-length': '10921',
+204 verbose headers   'accept-ranges': 'bytes',
+204 verbose headers   date: 'Wed, 11 Oct 2017 12:51:01 GMT',
+204 verbose headers   via: '1.1 varnish',
+204 verbose headers   age: '32',
+204 verbose headers   connection: 'keep-alive',
+204 verbose headers   'x-served-by': 'cache-fra1232-FRA',
+204 verbose headers   'x-cache': 'HIT',
+204 verbose headers   'x-cache-hits': '181',
+204 verbose headers   'x-timer': 'S1507726261.097251,VS0,VE0',
+204 verbose headers   vary: 'Accept-Encoding, Accept' }
+205 silly get cb [ 200,
+205 silly get   { server: 'nginx/1.10.1',
+205 silly get     'content-type': 'application/json',
+205 silly get     'last-modified': 'Wed, 11 Oct 2017 01:56:39 GMT',
+205 silly get     etag: 'W/"59dd7a57-162c5"',
+205 silly get     'content-encoding': 'gzip',
+205 silly get     'cache-control': 'max-age=300',
+205 silly get     'content-length': '10921',
+205 silly get     'accept-ranges': 'bytes',
+205 silly get     date: 'Wed, 11 Oct 2017 12:51:01 GMT',
+205 silly get     via: '1.1 varnish',
+205 silly get     age: '32',
+205 silly get     connection: 'keep-alive',
+205 silly get     'x-served-by': 'cache-fra1232-FRA',
+205 silly get     'x-cache': 'HIT',
+205 silly get     'x-cache-hits': '181',
+205 silly get     'x-timer': 'S1507726261.097251,VS0,VE0',
+205 silly get     vary: 'Accept-Encoding, Accept' } ]
+206 verbose get saving jquery to C:\Users\Keyhan\AppData\Roaming\npm-cache\registry.npmjs.org\jquery\.cache.json
+207 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+208 silly resolveWithNewModule jquery@3.2.1 checking installable status
+209 silly cache add args [ 'jquery@^3.2.1', null ]
+210 verbose cache add spec jquery@^3.2.1
+211 silly cache add parsed spec Result {
+211 silly cache add   raw: 'jquery@^3.2.1',
+211 silly cache add   scope: null,
+211 silly cache add   escapedName: 'jquery',
+211 silly cache add   name: 'jquery',
+211 silly cache add   rawSpec: '^3.2.1',
+211 silly cache add   spec: '>=3.2.1 <4.0.0',
+211 silly cache add   type: 'range' }
+212 silly addNamed jquery@>=3.2.1 <4.0.0
+213 verbose addNamed ">=3.2.1 <4.0.0" is a valid semver range for jquery
+214 silly addNameRange { name: 'jquery', range: '>=3.2.1 <4.0.0', hasData: false }
+215 silly mapToRegistry name jquery
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry data Result {
+218 silly mapToRegistry   raw: 'jquery',
+218 silly mapToRegistry   scope: null,
+218 silly mapToRegistry   escapedName: 'jquery',
+218 silly mapToRegistry   name: 'jquery',
+218 silly mapToRegistry   rawSpec: '',
+218 silly mapToRegistry   spec: 'latest',
+218 silly mapToRegistry   type: 'tag' }
+219 silly mapToRegistry uri https://registry.npmjs.org/jquery
+220 verbose addNameRange registry:https://registry.npmjs.org/jquery not in flight; fetching
+221 verbose get https://registry.npmjs.org/jquery not expired, no request
+222 silly addNameRange number 2 { name: 'jquery', range: '>=3.2.1 <4.0.0', hasData: true }
+223 silly addNameRange versions [ 'jquery',
+223 silly addNameRange   [ '1.5.1',
+223 silly addNameRange     '1.6.2',
+223 silly addNameRange     '1.6.3',
+223 silly addNameRange     '1.7.2',
+223 silly addNameRange     '1.7.3',
+223 silly addNameRange     '1.8.2',
+223 silly addNameRange     '1.8.3',
+223 silly addNameRange     '2.1.0-beta2',
+223 silly addNameRange     '2.1.0-beta3',
+223 silly addNameRange     '1.11.0-beta3',
+223 silly addNameRange     '1.11.0-rc1',
+223 silly addNameRange     '2.1.0-rc1',
+223 silly addNameRange     '1.11.0',
+223 silly addNameRange     '2.1.0',
+223 silly addNameRange     '2.1.1-beta1',
+223 silly addNameRange     '1.11.1-beta1',
+223 silly addNameRange     '2.1.1-rc1',
+223 silly addNameRange     '1.11.1-rc1',
+223 silly addNameRange     '2.1.1-rc2',
+223 silly addNameRange     '1.11.1-rc2',
+223 silly addNameRange     '2.1.1',
+223 silly addNameRange     '1.11.1',
+223 silly addNameRange     '1.9.1',
+223 silly addNameRange     '2.1.2',
+223 silly addNameRange     '1.11.2',
+223 silly addNameRange     '2.1.3',
+223 silly addNameRange     '2.1.4',
+223 silly addNameRange     '1.11.3',
+223 silly addNameRange     '3.0.0-alpha1',
+223 silly addNameRange     '1.12.0',
+223 silly addNameRange     '2.2.0',
+223 silly addNameRange     '3.0.0-beta1',
+223 silly addNameRange     '1.12.1',
+223 silly addNameRange     '2.2.1',
+223 silly addNameRange     '1.12.2',
+223 silly addNameRange     '2.2.2',
+223 silly addNameRange     '1.12.3',
+223 silly addNameRange     '2.2.3',
+223 silly addNameRange     '1.12.4',
+223 silly addNameRange     '2.2.4',
+223 silly addNameRange     '3.0.0-rc1',
+223 silly addNameRange     '3.0.0',
+223 silly addNameRange     '3.1.0',
+223 silly addNameRange     '3.1.1',
+223 silly addNameRange     '3.2.0',
+223 silly addNameRange     '3.2.1' ] ]
+224 silly addNamed jquery@3.2.1
+225 verbose addNamed "3.2.1" is a plain semver version for jquery
+226 silly cache afterAdd jquery@3.2.1
+227 verbose afterAdd C:\Users\Keyhan\AppData\Roaming\npm-cache\jquery\3.2.1\package\package.json not in flight; writing
+228 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+229 verbose afterAdd C:\Users\Keyhan\AppData\Roaming\npm-cache\jquery\3.2.1\package\package.json written
+230 info retry will retry, error on last attempt: Error: read ECONNRESET
+231 silly fetchAndShaCheck shasum dc5928175d2e71310bc668cf9e05a907211b72a6
+232 info attempt registry request try #2 at 4:22:04 PM
+233 http fetch GET https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz
+234 http fetch 200 https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz
+235 silly fetchAndShaCheck shasum 8fa8cf0411a1a31afd07b06d2902bb9fc815a133
+236 verbose addTmpTarball C:\Users\Keyhan\AppData\Local\Temp\npm-10832-694a8237\registry.npmjs.org\font-awesome\-\font-awesome-4.7.0.tgz not in flight; adding
+237 verbose addTmpTarball already have metadata; skipping unpack for font-awesome@4.7.0
+238 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+239 silly cache afterAdd font-awesome@4.7.0
+240 verbose afterAdd C:\Users\Keyhan\AppData\Roaming\npm-cache\font-awesome\4.7.0\package\package.json not in flight; writing
+241 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+242 verbose afterAdd C:\Users\Keyhan\AppData\Roaming\npm-cache\font-awesome\4.7.0\package\package.json written
+243 silly fetchAndShaCheck shasum 229e4dea01629e1f1a1e26991ffade5024220fa6
+244 verbose addTmpTarball C:\Users\Keyhan\AppData\Local\Temp\npm-10832-694a8237\registry.npmjs.org\popper.js\-\popper.js-1.12.5.tgz not in flight; adding
+245 verbose addTmpTarball already have metadata; skipping unpack for popper.js@1.12.5
+246 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+247 silly cache afterAdd popper.js@1.12.5
+248 verbose afterAdd C:\Users\Keyhan\AppData\Roaming\npm-cache\popper.js\1.12.5\package\package.json not in flight; writing
+249 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+250 verbose afterAdd C:\Users\Keyhan\AppData\Roaming\npm-cache\popper.js\1.12.5\package\package.json written
+251 silly fetchAndShaCheck shasum 47982c5836bd758fd48494923c4a101ef6e93e3b
+252 verbose addTmpTarball C:\Users\Keyhan\AppData\Local\Temp\npm-10832-694a8237\registry.npmjs.org\jquery.easing\-\jquery.easing-1.4.1.tgz not in flight; adding
+253 verbose addTmpTarball already have metadata; skipping unpack for jquery.easing@1.4.1
+254 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+255 silly cache afterAdd jquery.easing@1.4.1
+256 verbose afterAdd C:\Users\Keyhan\AppData\Roaming\npm-cache\jquery.easing\1.4.1\package\package.json not in flight; writing
+257 verbose correctMkdir C:\Users\Keyhan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+258 verbose afterAdd C:\Users\Keyhan\AppData\Roaming\npm-cache\jquery.easing\1.4.1\package\package.json written
+259 silly rollbackFailedOptional Starting
+260 silly rollbackFailedOptional Finishing
+261 silly runTopLevelLifecycles Finishing
+262 silly install printInstalled
+263 verbose stack Error: shasum check failed for C:\Users\Keyhan\AppData\Local\Temp\npm-10832-694a8237\registry.npmjs.org\bootstrap\-\bootstrap-4.0.0-beta.tgz
+263 verbose stack Expected: dc5928175d2e71310bc668cf9e05a907211b72a6
+263 verbose stack Actual:   05684c45c3fd134fd5336f6904ae9e59611eab3f
+263 verbose stack From:     https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz
+263 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:25:8
+263 verbose stack     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:72:7)
+263 verbose stack     at emitNone (events.js:91:20)
+263 verbose stack     at ReadStream.emit (events.js:185:7)
+263 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+263 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+263 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+264 verbose cwd C:\Users\Keyhan\Desktop\startbootstrap-agency-gh-pages\yasna-fa
+265 error Windows_NT 10.0.14393
+266 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+267 error node v6.11.1
+268 error npm  v3.10.10
+269 error shasum check failed for C:\Users\Keyhan\AppData\Local\Temp\npm-10832-694a8237\registry.npmjs.org\bootstrap\-\bootstrap-4.0.0-beta.tgz
+269 error Expected: dc5928175d2e71310bc668cf9e05a907211b72a6
+269 error Actual:   05684c45c3fd134fd5336f6904ae9e59611eab3f
+269 error From:     https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz
+270 error If you need help, you may report this error at:
+270 error     <https://github.com/npm/npm/issues>
+271 verbose exit [ 1, true ]
